@@ -1,0 +1,54 @@
+.java파일을 컴파일하면 .class가 생성된다
+.jclass파일의 종류는 바이트코드이다
+자바의 class는 JVM(자바가상머신)에서 실행된다.
+자바 가상머신은 지구상의 모든 운영체제에 설치되어있다.
+JVM이 모든 OS에 설치되어 있기 때문에java는 플렛폼 독립성을 가질 수 있게 된다.
+
+int [] 도 4바이트 int [][]도 4바이트
+2차원배열로 생성한게 1차원배열이 부를수 없다
+int[행][열]
+
+2차원배열의 length필드
+inti[][]=new int [2][5]일때
+
+i.length - >2차원배열의 '행의갯수'니까 2개
+i[n].length - >n번째행의 열의갯수
+i[1].length - >1번째행의 열의갯수 -> 5개
+
+배열리턴
+//리턴타입
+int[] makeArray(){
+	int temp[] = new int [4];
+	return temp; <<<---- temp가 배열을 리턴한다.
+
+}
+
+
+배열을 리턴받아 사용하는 과정
+
+
+
+
+
+
+[JAVA 기반 APP 개발]
+책 : java의 정석
+JAVA ->DB(JDBC포함) ->SWING ->스윙으로 3일짜리 미니프로젝트(GUI)
+파이썬(4일)
+
+[웹 프로그래밍 기초 - 프론트엔드]
+책 : 자바스크립트 + jQuery 마스터
+HTML -> CSS -> Javascript -> jQuery(Library) -> Vue.js
+
+[서버&네트워크 프로그램 - 백엔드기술]
+책 : 코드로 배우는 스프링 웹 프로젝트
+톰캣 or IIS에서 돌아가야 백엔드기술(소규모로 들어가면 웹호스팅, 대규모로 기능을 쓸때는 클라우드)
+Servlet/JSP ->Spring framework ->ORM(MyBatis, JPA) framework
+파이썬 플라스크 or Django (2일)
+Node.js(2일)
+
+<팀프로젝트>
+책보다는 아이디어가 중요하다
+책 : 프로젝트 더보기
+조별 프로젝트(2개월), 파이썬
+
